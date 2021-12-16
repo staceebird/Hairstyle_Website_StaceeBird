@@ -1,1 +1,63 @@
 // Your styles go here
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+$main: #EA9E7F;
+$secondary: #F6C4AF;
+$background: #EBEBEB;
+
+body {
+    background-color: $background;
+}
+
+nav {
+    background-color: $main;
+}
+
+.dropdown-menu {
+    background-color: $secondary;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: $main;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+.card-body {
+    background-color: $background;
+    text-align: center;
+}
+
+.card-body > a {
+    font-size: 1.5rem;
+}
+form {
+    background-color: $secondary;
+}
+
+.fbutton {
+    background-color: $main
+}
+
+.fa-paper-plane {
+    margin-left: .5rem;
+}
+
+footer {
+    background-color: $main;
+}
+
+.bclicked {
+    background-color: $secondary;
+}
